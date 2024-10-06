@@ -1,0 +1,18 @@
+.movie-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.movie-link {
+    color: #888;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.movie-link:hover,
+.movie-link:focus {
+    color: #b92b2b;
+}

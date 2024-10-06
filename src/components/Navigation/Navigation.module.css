@@ -1,16 +1,19 @@
 .nav {
     display: flex;
     gap: 20px;
-    border-bottom: 1px solid #333;
 }
 
 .nav-link {
-    color: #999;
+    color: #888;
     padding: 20px 0;
     text-decoration: none;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #333;
+    color: #d84040;
+}
+
+.active {
+    color: #d84040;
 }

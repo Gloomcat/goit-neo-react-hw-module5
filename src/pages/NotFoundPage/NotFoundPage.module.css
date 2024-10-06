@@ -1,0 +1,10 @@
+.home-link {
+    color: #888;
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+.home-link:hover,
+.home-link:focus {
+    color: #b92b2b;
+}
