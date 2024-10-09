@@ -1,0 +1,11 @@
+.reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.author {
+    margin-bottom: 5px;
+}

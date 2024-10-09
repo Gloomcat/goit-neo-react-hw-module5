@@ -8,7 +8,7 @@ import TmdbAPI from '../../api/tmdb-api';
 
 import MovieList from '../../components/MovieList/MovieList';
 
-const HomePage = ({ trending }) => {
+const HomePage = () => {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {

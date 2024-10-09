@@ -12,6 +12,23 @@ const TmdbAPI = {
   fetchTrendingMovies: async function () {
     return axios.get('/trending/movie/day');
   },
+  fetchMoviesByQuery: async function (query) {
+    const config = {
+      params: {
+        query: query,
+      },
+    };
+    return axios.get('/search/movie', config);
+  },
+  fetchMovieDetails: async function (id) {
+    return axios.get(`/movie/${id}`);
+  },
+  fetchMovieReviews: async function (id) {
+    return axios.get(`/movie/${id}/reviews`);
+  },
+  fetchMovieCredits: async function (id) {
+    return axios.get(`/movie/${id}/credits`);
+  },
 };
 
 export default TmdbAPI;
